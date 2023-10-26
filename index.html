@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <!-- ------------------------Cdn For Tailwindcss------------------------------ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#202124]">
+
+    <!-- ------------------box of website---------------------------------------------- -->
+    <div class="Container border-[1px] border-white w-[651px] h-[219px] mt-10 ml-10 rounded-md">
+
+        <p
+            class="border-[1px] border-white w-[500px] h-[31px] bg-[#303134] text-white hover:bg-black mt-5 ml-5 text-base pl-2">
+            Temperature</p>
+
+        <!-- ---------------------------Converter -------------------------------------- -->
+        <div class="border-[1px] border-white w-[200px] h-[74px] mt-5 ml-5 rounded-md flex">
+            <p>
+                <input id="cel"
+                    class="text-2xl font-semibold pl-10 border-[1px] border-white bg-black text-white w-[199px] h-[43px] rounded-md"
+                    type="text" name="" id="">
+                <span class="text-white h-[33px] text-sm hover:bg-black pl-2">Degree Calcius</span>
+            </p>
+
+            <span class="text-3xl text-white font-extrabold ml-3 mr-3">=</span>
+
+            <p class="border-[1px] border-white rounded-md">
+
+                <input id="feh"
+                    class=" text-2xl font-semibold pl-16 border-[1px] border-white bg-black text-white w-[199px] h-[43px] rounded-md"
+                    type="text" name="" id="">
+                <span class="text-white h-[33px] text-sm hover:bg-black pl-2">Fahrenheit</span>
+            </p>
+        </div>
+
+        <!-- -------------------Formula -------------------- -->
+        <p class="ml-5 mt-6">
+            <span class="bg-yellow-500 text-black text-sm rounded-md p-1 mr-3">Formula</span>
+            <span class="text-white">(0°C × 9/5) + 32 = 32°F</span>
+        </p>
+
+    </div>
+
+    <!-- -------------------------more info of website------------------------------------- -->
+    <p class="flex justify-between w-[650px] mt-1">
+        <a class="text-white text-sm ml-12"
+            href="https://www.google.com/search?client=firefox-b-d&q=cel+to+fer+converter">More Info</a>
+        <a class="text-white text-sm"
+            href="https://www.google.com/search?client=firefox-b-d&q=cel+to+fer+converter">Feedack</a>
+    </p>
+</body>
+<script src="logic.js"></script>
+
+</html>
